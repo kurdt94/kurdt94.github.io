@@ -1,2 +1,2 @@
-# kurdt94.github.io
-kurdt94's github
+# $Peaches from $Cans
+welcome to kurdt94's github. there is nothing here (for now).
