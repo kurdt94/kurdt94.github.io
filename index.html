@@ -1,13 +1,17 @@
 <html><head>
   <style>
-    body { font-family: verdana; }
+    body { font-family: monospace; padding: 0px; background-color: #ddd; margin: 0; }
     img { border: 1px solid #ddd; margin: 10px; }
+    .main { width: 1024px; height: 100%; margin: auto; background-color: white; padding: 20px;} 
+    h2.htitle {font-size: 3em; margin: 0; color: #880808; } 	
   </style>
 </head>
 <body>
-<h2>Better-YT-Volume</h2>
-<p dir="auto">A Basic Chrome Extension that increases volume on youtube videos. Why ? Youtube normalizes audio to -14 LUFS integrated loudness. And I don't fucking like it !</p>
+<div class="main">
+<h2 class="htitle">Better-YT-Volume</h2>
+<p dir="auto">A Basic Google Chrome extension that increases volume on youtube.com. Why ? Youtube normalizes audio to -14 LUFS integrated loudness. <br/>Trust me, we need the extra volume.</p>
 
+<h2>Waveform comparison:</h2>
 <strong>Youtube : </strong> <br>
 <img src="https://github.com/kurdt94/kurdt94.github.io/raw/main/output3.png"> <br>
 <strong>Youtube with extension : </strong> <br>
@@ -17,7 +21,7 @@
 
 <p><small style="margin: 10px;">Example audio track: "Queens Of The Stone Age - Avon" (<a href="https://www.youtube.com/watch?v=aimHMr-Ee4o">link</a>) </small>
 </p><h3>Installation</h3>
-<ul dir="auto" style="list-style-type: none;">
+<ul dir="auto" style="list-style-type: none;font-size: 14px;">
 <li>
 <ol dir="auto">
 <li>Download this repo as a ZIP file on your computer and unzip it to your folder of choice.</li>
@@ -41,4 +45,6 @@
 </ol>
 </li>
 </ul>
-</body></html>
+</div>
+</body>
+</html>
